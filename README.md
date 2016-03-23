@@ -36,6 +36,8 @@ stream processing.  <http://spark.apache.org/>
     >>$ bin/spark-submit --master spark://UserName.local:7077 examples/src/main/python/pi.py
 
     # Write and deploy own python program to the Spark Cluster
+    # Spark Packages required: http://spark-packages.org
+
     >>$ bin/spark-submit --master spark://UserName.local:7077 --packages com.databricks:spark-csv_2.10:1.3.0 mySpark_files/uberstats.py mySpark_files/Uber-Jan-Feb-FOIL.csv
 
 
@@ -53,7 +55,21 @@ stream processing.  <http://spark.apache.org/>
 
     # Create & Launch new Python Spark Cluster on Amazon EC2.
     >>$ chmod 400 downloaded.pem
-    >>$ ec2/spark-ec2 --key-pair=spark_python --identity-file=downloaded.pem --zone=us-west-2a launch spark-cluster-example
+    >>$ ./ec2/spark-ec2 --key-pair=spark_python --identity-file=downloaded.pem --zone=us-west-2a launch spark-cluster-example
 
     # Running iPython console after creating Cluster where ec2-54-198-139-10.compute-1.amazonaws.com is the public DNS created my MASTER
     >>$ bin/spark-shell --master spark://ec2-54-198-139-10.compute-1.amazonaws.com:7077
+
+
+## CSV File - Querying structured data using Spark SQL (formerly SchemaRDD)
+    # Spark SQL with iPython on CSV file. We pass in a "spark_csv" data source
+    # package found and documented at: http://spark-packages.org
+
+    >>$ IPYTHON_OPTS="notebook" ./bin/pyspark --packages com.databricks:spark-csv_2.10:1.3.0
+
+## RDBMS - Querying structured data using Spark SQL (formerly SchemaRDD)
+    # Spark SQL on structured RDBMS database. For this, we need a Java database Connectivity (JDBC) driver on path.
+    # This example uses the mySQL and automatically downloads the JDBC driver
+    from https://dev.mysql.com/downloads/connector/j/
+
+    >>$ IPYTHON_OPTS="notebook" ./bin/pyspark --jars mysql-connector-java-5.1.38-bin.jar
