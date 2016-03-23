@@ -61,13 +61,13 @@ stream processing.  <http://spark.apache.org/>
     >>$ bin/spark-shell --master spark://ec2-54-198-139-10.compute-1.amazonaws.com:7077
 
 
-## CSV File - Querying structured data using Spark SQL (formerly SchemaRDD)
+## CSV File - Querying structured data using Spark SQL
     # Spark SQL with iPython on CSV file. We pass in a "spark_csv" data source
     # package found and documented at: http://spark-packages.org
 
     >>$ IPYTHON_OPTS="notebook" ./bin/pyspark --packages com.databricks:spark-csv_2.10:1.3.0
 
-## RDBMS - Querying structured data using Spark SQL (formerly SchemaRDD)
+## RDBMS - Querying structured data using Spark SQL 
     # Spark SQL on structured RDBMS database. For this, we need a Java database Connectivity (JDBC) driver on path.
     # This example uses the mySQL and automatically downloads the JDBC driver
     from https://dev.mysql.com/downloads/connector/j/
