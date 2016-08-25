@@ -17,3 +17,23 @@ python/
 sbin/
 sbin/
 examples/
+
+*.pem
+*.DS_Store
+*.ipynb_checkpoints
+
+.Spotlight-V100
+.Trashes
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Specific files and folders
+
