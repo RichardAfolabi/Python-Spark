@@ -1,13 +1,130 @@
 ----------------------------------------------------------------
-Sat Aug 06 18:09:29 PDT 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0156-628c-2e36-00002cc5fc40 
-on database directory /Users/RichardAfolabi/myGitHub/mySpark_files/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@497d45af 
-Loaded from file:/Users/RichardAfolabi/spark/lib/spark-assembly-1.6.0-hadoop2.6.0.jar
+Fri Aug 26 12:04:07 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-cc1fb064-b376-4777-918d-c448805d42be\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_73-b02
-user.dir=/Users/RichardAfolabi/myGitHub/mySpark_files
-os.name=Mac OS X
-os.arch=x86_64
-os.version=10.11.6
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 12:04:10 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 0309c396-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-8bc9f742-a8b7-4d45-bc36-78ec32088382\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 12:04:13 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance d7ae46d2-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-83304e5c-06bf-4d95-90a9-d54f9bb122e2\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 12:04:14 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 49d6ca0e-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-011d42fa-c5cd-4eee-9585-c89b7585c76e\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 12:04:16 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 59834d4a-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-b81a571a-82ad-4fc0-a26c-2db81e5ce331\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 16:19:29 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 06b3d086-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-cd019607-c5df-4a7f-bde2-e154362b1b73\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 16:19:31 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 516853c2-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-40af4279-d65b-414d-9679-3145a9792bfd\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 16:29:25 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance 39a0d6fe-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-e3768b46-e69a-4c99-a49e-ae14026ebbd7\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 16:29:27 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance bf5d5a3a-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-092b8ffc-880c-4e26-99f9-7b8523a8cb4e\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 26 16:30:36 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance e29ddd76-0156-c83c-dbe6-000031ec5c18 
+on database directory C:\Users\ra305g\Documents\MobaXterm\slash\var\log\xwin\spark-eb096a0c-7609-4c11-bdba-7fee9111a439\metastore with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/C:/Users/ra305g/spark-1.6.2/lib/spark-assembly-1.6.2-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Users\ra305g\DTV_Codes\Python-Spark
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
