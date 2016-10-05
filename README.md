@@ -13,6 +13,11 @@ stream processing.  <http://spark.apache.org/>
 * Anaconda (iPython, Scipy, Pandas, etc)
 
 
+## Install & Configure Spark on Mac and Use iPython Notebook
+https://github.com/mGalarnyk/Installations_Mac_Ubuntu_Windows/blob/master/Spark/Install_Apache_Spark_PySpark_Mac.ipynb
+
+
+
 ## Firing Interactive Python (iPython) with Spark
 
     # Check Spark is ready (after intalling Java SDK and unpacking Spark)
